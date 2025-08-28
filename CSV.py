@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Set the folder containing the files
-folder_path = input("Enter your folder path: ")   # Replace with your folder path
+folder_path = input("Enter your folder path: ")   # Put your folder path
 
 # List all CSV files in the folder
 all_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
